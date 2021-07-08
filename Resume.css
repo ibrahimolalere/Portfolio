@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+    
+    
+    }
+    
+    .navbar {
+        background: #fff ;
+        box-shadow: 0px 3px 2px 0.5px rgba(255, 255, 255, 0.205);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        position: sticky;
+        top: 0px;
+        z-index: 999;
+        
+        
+    
+    }
+    
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0px auto;
+        padding: 0px 30px;
+    
+    }
+    
+    #navbar-logo {
+        color: #3D3D3D;
+        text-decoration: none;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 600;
+        
+    }
+    
+    .navbar-menu {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        list-style: none;
+    
+    }
+    .navbar-links {
+        -webkit-text-fill-color: #3D3D3D;
+        text-decoration: none;
+        display: flex;
+        width: 80px;
+        font-size: 0.9rem;
+        align-items: center;
+        justify-items: center;
+    } 
+    
+    .navbar-links {
+        justify-items: center;
+    
+    
+    }
+    
+    
+    .navbar-links:hover {
+        -webkit-text-fill-color: #97b413
+    }
+    
+    .navbar-links:active {
+        text-decoration: underline;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.resume-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.resumediv{
+    padding: 10%;
+    
+}
+
+.resumediv{
+    font-family: sans-serif;
+    font-size: 1rem;
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    
+}
+
+.signup-container{
+    align-self: center;
+    margin: auto;
+}
+
+
+
+  .container{
+      align-content: center;
+  }
+/*  
+ 
+ 
+  margin: 200px;
+  background-color: blue;
+  padding: 100px;
+  justify-self: center;
+  align-self: center;
+  height: 70%;
+  width: 20%;
+  margin-right: 400px;
+} */

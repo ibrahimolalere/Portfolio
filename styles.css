@@ -1,0 +1,278 @@
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Kumbh Sans', sans-serif;
+scroll-behavior: smooth;
+
+
+}
+
+.navbar {
+    background: #fff ;
+    box-shadow: 0px 3px 2px 0.5px rgba(255, 255, 255, 0.205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    
+    
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 30px;
+
+}
+
+#navbar-logo {
+    color: #3D3D3D;
+    text-decoration: none;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.navbar-menu {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+
+}
+.navbar-links {
+    -webkit-text-fill-color: #3D3D3D;
+    text-decoration: none;
+    display: flex;
+    width: 80px;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-items: center;
+} 
+
+.navbar-links {
+    justify-items: center;
+
+
+}
+
+
+.navbar-links:hover {
+    -webkit-text-fill-color: #97b413
+}
+
+.navbar-links:active {
+    text-decoration: underline;
+}
+
+    
+  
+
+
+/* #sign-up {
+    color: chocolate;
+    background-color: #ff8c00; 
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  /* font-size: 16px; */
+
+
+
+
+#sign-up {
+color: white;
+text-decoration: none;
+} 
+
+#sign-up:hover{
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    border-color: #ce0b0b;
+}
+
+
+
+
+/* .content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+    padding-left: 70px;
+
+} */
+
+.textbody{
+    align-self: center;
+    
+}
+.textbody-head{
+    text-decoration: none;
+    font-size: 3.0rem;
+    padding: 50px;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 2s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  
+
+}
+
+.textbody-tail{
+     text-decoration: none ;
+     font-size: 1.2rem;
+     line-height: 1.5;
+     margin-bottom: 1em;
+}
+
+.image{
+    width: 90%;
+    padding: 0 10%
+}
+
+.image img{
+        min-width: 100%;
+        height: auto;
+    
+      }
+      
+.second-body{
+    background-color: black;
+
+}
+
+.second-body-container{
+    padding: 100px;
+    background-color: #ffffff;
+}
+
+#sign-up {
+    color: chocolate;
+    background-color: #ff8c00; 
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+/* .portfolio-item img{
+    max-width: 100%;
+    height: auto;
+    padding: 2%;
+} */
+    
+.portfolio-item{
+    position: relative;
+    margin: 2.5rem;
+    
+    
+}
+.portfolio-item img{
+    max-width: 100%;
+    opacity: 0.9;
+    
+}
+
+
+  
+ .overlay {
+     position: absolute;
+     transition: all 3s ease;
+     opacity: 0;
+     background-color: blue;
+ }
+
+ .portfolio-item :hover .overlay{
+    opacity: 1;
+   
+}
+
+ .text{
+     position: absolute;
+     color: blue;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .overlay-left{
+     height: 100%;
+     top: 0;
+     width: 0;
+     left: 0;
+ }
+
+ .portfolio-item :hovers{
+    animation: scale .4s ease-in-out forwards;
+    opacity: 30;
+ }
+
+
+ .portfolio-item :hover .overlay-left{
+     width: 100%;
+    
+ }
+
+
+
+.select-work {
+    text-decoration: none;
+    font-size: 3.0rem;
+    padding: 10px;
+    font-weight: thick;
+}
+
+@keyframes scale {
+ 0%{
+     transform: scale(1);
+ }  
+ 100%{
+     transform: scale(1.1);
+ } 
+}
+
+.copyright {
+    font-size: 1.2rem;
+    padding: 50px;
+    font-weight: thick;
+    
+}
+
+
+
+  
